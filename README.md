@@ -1,2 +1,4 @@
-# assignment_1_wp
-Web Programming Assignment 1
+# Assignment 1 Web Programming
+
+Link Website: TBA
+Link Github Repo: TBA
