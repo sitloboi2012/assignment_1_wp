@@ -10,21 +10,42 @@
 
     <body>
         <header>
-            <div class="top-nav">
-                <nav id="nav-bar">
-                    <img alt="rmit-icon" src="images/RMIT_store_blue_logo.png" id="logo", href="index.html">
-                    <a href="#" class="active">Home</a>
-                    <a href="category.html">Category</a>
-                    <a href="booking.html">Booking</a>
-                    <a href="contact">Contact Us</a>
-                </nav>
-            </div>
+            <nav class="navbar">
+                <a href="index.html"><img alt="rmit-icon" src="images/RMIT_store_blue_logo.png" id="logo", href="index.html"></a>
+                <ul class="nav-links">
+                    <input type="checkbox" id="checkbox_toggle" />
+                    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                    <div class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="category.html">Category</a></li>
+                        <li><a href="booking.html">Booking</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </div>
+                </ul>
+            </nav>
         </header>
         <main>
 
         </main>
         <footer>
-
+            <section class="footer-container">
+                <div class="footer-logo">
+                    <a href="index.html"><img alt="rmit-icon" src="images/RMIT_store_blue_logo.png" id="logo", href="index.html"></a>
+                </div>
+                <div class="footer-navs">
+                    <h3>Pages</h3>
+                    <ul>
+                        <li><a href="index.html">About Us</a></li>
+                        <li><a href="category.html">Privacy Policy</a></li>
+                        <li><a href="booking.html">Terms</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="video-rmit">
+                    <iframe width="500" height="200" src="https://www.youtube.com/embed/WA8uOPOsmv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </section>
+            <section class="copyright">Copyright &copy; RMIT University 2023</section>
         </footer>
     </body>
 </html>
