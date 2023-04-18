@@ -19,90 +19,90 @@
                 <input type="checkbox" id="checkbox_toggle" />
                 <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                 <div class="menu">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="machine-learning.html">Machine Learning</a></li>
                     <li><a href="software-engineer.html">Software Engineering</a></li>
-                    <li><a href="data-related.html">Data Related</a></li>
+                    <li class="active"><a href="data-related.html">Data Related</a></li>
                 </div>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="container" id="index">
-            <h2 class="heading-text">Machine Learning</h2>
+        <h3 class="option-title">Choose your sub-category</h3>
+        <div class="section">
+            <button class="ml-button"><a href="#data-engineer"><strong>Data Engineer</strong></a></button>
+            <button class="se-button"><a href="#data-analysis"><strong>Data Analysis</strong></a></button>
+            <button class="dr-button"><a href="#data-science"><strong>Data Science</strong></a></button>
+        </div>
+        
+        <div class="container">
+            <h2 class="heading-text" id="data-engineer">Data Engineering</h2>
             <ul class="book-gallery">
                 <li>
-                    <img src="images/machine_learning/computer-vision/comp_1.jpg" alt="PCVP" />
+                    <img src="images/data_related/de/azure_1.png" alt="Data Engineering on Azure" />
                     <div class="overlay">
-                        <span>
-                            <strong>Computer Vision with Python <br /><br /> 100 AUD$</strong>
-                        </span>
+                        <span><strong>Data Engineering on Azure <br/><br/> 80 AUD$</strong></span>
                     </div>
                 </li>
                 <li>
-                    <img src="images/machine_learning/deep-learning/cook_1.jpg" alt="PMLC" />
+                    <img src="images/data_related/de/fun_1.jpg" alt="Fundamentals of Data Engineering" />
                     <div class="overlay">
-                        <span><strong>Python Machine Learning Cookbook <br /><br /> 100 AUD$</strong></span>
+                        <span><strong>Fundamentals of Data Engineering <br/><br/> 90 AUD$</strong></span>
                     </div>
                 </li>
                 <li>
-                    <img src="images/machine_learning/nlp/trans_1.jpg" alt="NLPT" />
+                    <img src="images/data_related/de/dumb_1.jpg" alt="Big Data for Dummies" />
                     <div class="overlay">
-                        <span><strong>NLP with Transformers <br /><br /> 100 AUD$</strong></span>
+                        <span><strong>Big Data for Dummies <br/><br/> 100 AUD$</strong></span>
                     </div>
                 </li>
             </ul>
-        </div>
 
-        <div class="container" id="index">
-            <h2 class="heading-text">Software Engineer</h2>
+            <h2 class="heading-text" id="data-analysis">Data Analysis</h2>
             <ul class="book-gallery">
                 <li>
-                    <img src="images/software_engineering/algorithm-and-ds/algo_1.jpg" alt="Algo" />
+                    <img src="images/data_related/da/anal_1.jpg" alt="Advancing into Analytics" />
                     <div class="overlay">
-                        <span><strong>Algorithms <br /><br /> 100 AUD$</strong></span>
+                        <span><strong>Advancing into Analytics <br/><br/> 80 AUD$</strong></span>
                     </div>
                 </li>
                 <li>
-                    <img src="images/software_engineering/design-system/clean_1.jpg" alt="Clean Code" />
+                    <img src="images/data_related/da/sql_1.jpg" alt="Practical SQL" />
                     <div class="overlay">
-                        <span><strong>Clean Code <br /><br /> 100 AUD$</strong></span>
+                        <span><strong>Practical SQL <br/><br/> 90 AUD$</strong></span>
                     </div>
                 </li>
                 <li>
-                    <img src="images/software_engineering/programming-lang/c_1.png" alt="C Programming" />
+                    <img src="images/data_related/da/tab_1.jpg" alt="Communicating Data with Tableau" />
                     <div class="overlay">
-                        <span><strong>The C Programming Language <br /><br /> 100 AUD$</strong></span>
+                        <span><strong>Communicating Data with Tableau <br/><br/> 100 AUD$</strong></span>
                     </div>
                 </li>
             </ul>
-        </div>
 
-        <div class="container" id="index">
-            <h2 class="heading-text">Data Related</h2>
+            <h2 class="heading-text" id="data-science">Data Science</h2>
             <ul class="book-gallery">
                 <li>
-                    <img src="images/data_related/da/anal_1.jpg" alt="AA" />
+                    <img src="images/data_related/ds/hands_1.webp" alt="Hands on Machine Learning with Scikit-learn, Keras and TensorFlow" />
                     <div class="overlay">
-                        <span><strong>Advancing into Analytics <br /><br /> 100 AUD$</strong></span>
+                        <span><strong>Hands on Machine Learning with Scikit-learn, Keras and TensorFlow <br/><br/> 80 AUD$</strong></span>
                     </div>
                 </li>
                 <li>
-                    <img src="images/data_related/de/fun_1.jpg" alt="FDE" />
+                    <img src="images/data_related/ds/r_1.png" alt="R for Data Science" />
                     <div class="overlay">
-                        <span><strong>Fundamentals of Data Engineering <br /><br /> 100 AUD$</strong></span>
+                        <span><strong>R for Data Science <br/><br/> 90 AUD$</strong></span>
                     </div>
                 </li>
                 <li>
-                    <img src="images/data_related/ds/python_1.jpg" alt="PYDSH" />
+                    <img src="images/data_related/ds/python_1.jpg" alt="Python Data Science Handbook" />
                     <div class="overlay">
-                        <span><strong>Python Data Science Handbook <br /><br /> 100 AUD$</strong></span>
+                        <span><strong>Python Data Science Handbook <br/><br/> 100 AUD$</strong></span>
                     </div>
                 </li>
             </ul>
         </div>
     </main>
-
     <footer>
         <section>
             <img class="footer-logo" src="images/RMIT_store_blue_logo.png" alt="logo"/>

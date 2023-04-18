@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rờ Mít Bookstore</title>
+    <link rel="icon" type="image/x-icon" href="images/rmit_icon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html"><img alt="rmit-icon" src="images/RMIT_store_blue_logo.png" id="logo" ,
+                    href="index.html"></a>
+            <ul class="nav-links">
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <div class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="machine-learning.html">Machine Learning</a></li>
+                    <li><a href="software-engineer.html">Software Engineering</a></li>
+                    <li><a href="data-related.html">Data Related</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3>Contact us for more information</h3>
+        <div id="form-fill">
+            <form action="form-processing" method="post" id="item-list">
+                <fieldset>
+                    <label for="reason">Reason for contact: </label>
+                    <select name="cars" id="cars">
+                            <option value="sell-books">I want to sell books</option>
+                            <option value="buy-books">I want to buy books</option>
+                    </select><br>
+                    <label for="name">Full Name: </label>
+                    <input type="text" id="full-name" name="full-name"><br>
+                    <label for="name">Email: </label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="name">Phone Number: </label>
+                    <input type="tel" id="tel" name="tel"><br>
+
+                    <input type="checkbox" id="by-email" name="by-email" value="By Email">
+                    <label for="by-email"> By Email</label><br>
+                    <input type="checkbox" id="by-phone" name="by-phone" value="By Phone">
+                    <label for="by-phone"> By Phone</label><br>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <section>
+            <img class="footer-logo" src="images/RMIT_store_blue_logo.png" alt="logo"/>
+            <p><strong>Where you buy book but never read</strong></p>
+            <p><strong>Copyright &copy; 2023 Huy Vo</strong></p>
+            <div class="footer-nav">
+                <ul class="nav-bar">
+                    <div class="menu nav-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Copyright</a></li>
+                        <li class="active"><a href="contact.html">Contact Us</a></li>
+                    </div>
+                </ul>
+            </div>
+            <iframe width="460" height="200" src="https://www.youtube.com/embed/N7UTS7en9uY"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
+    </footer>
+</body>
+
+</html>
