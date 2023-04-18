@@ -21,7 +21,7 @@ Link Github Repo: TBA
 - Software Engineer
     - Design System
         - Designing Data – Insensitive applications
-        - Head First Design Patterns
+        - Clean Code
         - Clean Architecture
     - Algorithm and Data Structure
         - Algorithm

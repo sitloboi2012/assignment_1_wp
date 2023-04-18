@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -16,9 +20,9 @@ li {
     list-style: none;
 }
 
-footer{
+footer {
     background-color: lightblue;
-    position:relative;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -72,6 +76,7 @@ input[type=checkbox] {
     user-select: none;
 }
 
+
 @media (max-width: 768px) {
     .menu {
         display: none;
@@ -104,7 +109,7 @@ input[type=checkbox] {
 }
 
 .container {
-    padding: 40px 5%;
+    padding-bottom: 32px;
 }
 
 .heading-text {
@@ -128,7 +133,7 @@ ul {
     flex-wrap: wrap;
     justify-content: center;
     gap: 80px;
-    
+
 }
 
 .book-gallery>li {
@@ -159,12 +164,12 @@ ul {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(57, 57, 57, 0.502);
+    background: rgba(0, 0, 0, 0.502);
     top: 0;
     left: 0;
     transform: scale(0);
     transition: all 0.2s 0.1s ease-in-out;
-    color: #fff;
+    color: white;
     border-radius: 5px;
     /* center overlay text */
     display: flex;
@@ -172,18 +177,30 @@ ul {
     justify-content: center;
 }
 
+.overlay > span {
+    width: 100%;
+    font-size: 20px;
+    background-color: rgb(96, 96, 227);
+}
+
 /* hover */
 .book-gallery li:hover .overlay {
+    transition-duration: 0.2s;
     transform: scale(1);
 }
 
-footer h3{
+.book-gallery li {
+    border-style: ridge;
+    border-radius: 5px;
+}
+
+footer h3 {
     font-size: 30px;
     text-transform: capitalize;
     line-height: 3rem;
 }
 
-footer p{
+footer p {
     max-width: 500px;
     margin: 10px auto;
     font-size: 14px;
@@ -208,3 +225,86 @@ footer iframe {
         margin-top: 15px;
         padding: 15px;
     }
+}
+
+#machine-learning > h2,
+#software-engineer > h2,
+#data-related > h2  {
+    margin-top: 50px;
+}
+
+.option-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section {
+    display: flex;
+    margin-top: 20px;
+    gap: 2em; 
+    justify-content: center;
+}
+
+.section button {
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.section > button > a {
+    color: black;
+}
+
+.section > .ml-button {
+    border: 2px solid #4CAF50;
+    background-color: #4CAF50;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.section > .ml-button:hover {
+    background-color: white;
+    border: 2px solid #4CAF50;
+}
+
+.section > .se-button {
+    border: 2px solid #ef8ce8;
+    background-color: #ef8ce8;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.section > .se-button:hover {
+    background-color: white;
+    border: 2px solid #ef8ce8;
+}
+
+.section > .dr-button {
+    border: 2px solid #f08a5a;
+    background-color: #f08a5a;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.section > .dr-button:hover {
+    background-color: white;
+    border: 2px solid #f08a5a;
+}
