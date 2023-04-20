@@ -186,11 +186,6 @@ ul {
     justify-content: center;
 }
 
-.disabled {
-    display: flex;
-    
-}
-
 .overlay>span {
     width: 100%;
     font-size: 20px;
@@ -198,7 +193,7 @@ ul {
 }
 
 /* hover */
-.book-gallery .enabled:hover .overlay {
+.book-gallery  li:hover .overlay {
     transition-duration: 0.2s;
     transform: scale(1);
 }
@@ -401,6 +396,11 @@ input[type=reset]:hover {
     margin-right: 10px;
 }
 
+.main-container h3 {
+    text-align: center;
+    padding: 15px 15px;
+}
+
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 768px) {
 
@@ -514,7 +514,9 @@ ul.breadcrumb li a:hover {
 }
 
 .buy-button button:hover {
-    background-color: #ff0000a7
+    background-color: #ff0000a7;
+    font-size: 50px;
+    transition-duration: 0.4s;
 }
 
 .buy-button button:active {
