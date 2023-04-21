@@ -1,7 +1,7 @@
 # Assignment 1 Web Programming
 
-Link Website: (RMIT Bookstore)[https://sitloboi2012.github.io/assignment_1_wp/index.html]
-Link Github Repo: (Source Code)[https://github.com/sitloboi2012/assignment_1_wp]
+Link Website: [RMIT Bookstore](https://sitloboi2012.github.io/assignment_1_wp/index.html) <br>
+Link Github Repo: [Source Code](https://github.com/sitloboi2012/assignment_1_wp)
 
 # Categories
 - Machine Learning
